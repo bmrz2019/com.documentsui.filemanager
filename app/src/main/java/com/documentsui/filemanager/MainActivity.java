@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 // Android 10
 //        intent.setClassName("com.android.documentsui", "com.android.documentsui.ViewDownloadsActivity");
 // Android 11        
-          intent.setClassName("com.android.documentsui", "com.android.documentsui.files.FilesActivity");
+          intent.setClassName("com.google.android.documentsui", "com.android.documentsui.files.FilesActivity");
 //        intent.setClassName("com.android.documentsui", "com.android.documentsui.ScopedAccessActivity");
         startActivity(intent);
 
